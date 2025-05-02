@@ -1,0 +1,11 @@
+body {
+    background-image: url("http://3.bp.blogspot.com/-ROyYC5sfXeg/VB5aAa2iLWI/AAAAAAAABac/KX3hgNJGcCo/s1600/Gambar%2BPemandangan%2BAlam%2BTerindah%2Bdi%2BDunia%2BPuncak%2BGung%2BBukit%2BHijau%2BCantik.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}

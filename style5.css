@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  /* Navigation Menu (Empty for now) */
+  nav.menu {
+    display: none;
+  }
+  
+  /* Beranda Section */
+  .beranda {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ecf0f1;
+  }
+  
+  .beranda h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .beranda p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Main Content */
+  .main-content {
+    padding: 40px 20px;
+  }
+  
+  main .artikel h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  main .artikel .tanggal {
+    font-size: 1em;
+    color: #95a5a6;
+  }
+  
+  main .artikel img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  main .artikel p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  main .artikel strong {
+    font-weight: bold;
+  }
+  
+  /* Galeri Styles */
+  .galeri-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .galeri-img figure {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .galeri-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .galeri-img figcaption {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* Kontak Section */
+  .kontak {
+    background-color: #3498db;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .kontak a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .kontak a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1em;
+  }

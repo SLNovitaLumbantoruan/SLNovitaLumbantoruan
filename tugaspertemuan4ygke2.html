@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Belajar CSS - Artikel & Penjelasan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      padding: 20px;
+      color: white;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ff6600;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    nav li {
+      float: left;
+    }
+
+    nav li a {
+      display: block;
+      padding: 14px 20px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav li a:hover {
+      background-color: #ff944d;
+    }
+
+    main {
+      display: flex;
+      padding: 20px;
+    }
+
+    .content {
+      flex: 3;
+    }
+
+    article {
+      background-color: white;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    aside {
+      flex: 1;
+      margin-left: 20px;
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    h2 {
+      color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tugas Perancangan web 4</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">S.L NOVITA LUMBANTORUAN</a></li>
+      <li><a href="#">IF D SG</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="content">
+      <article>
+        <h2>1. Perbedaan Selector ID dan Class</h2>
+        <p>ID digunakan untuk satu elemen unik (menggunakan <code>#</code>), sedangkan class digunakan untuk banyak elemen (menggunakan <code>.</code>).</p>
+      </article>
+
+      <article>
+        <h2>2. Mengubah Warna Teks</h2>
+        <p>Gunakan properti <code>color</code>. Contoh: <code>p { color: blue; }</code> akan membuat teks paragraf berwarna biru.</p>
+      </article>
+
+      <article>
+        <h2>3. Pentingnya CSS dalam Web</h2>
+        <p>CSS membantu membuat tampilan web lebih menarik, rapi, dan mudah digunakan, serta memisahkan desain dari struktur HTML.</p>
+      </article>
+
+      <article>
+        <h2>4. Sintaks Dasar CSS</h2>
+        <p>Sintaks CSS: <code>selector { property: value; }</code>. Contoh: <code>h1 { font-size: 24px; }</code></p>
+      </article>
+
+      <article>
+        <h2>5. Apa Itu Cascading?</h2>
+        <p>Cascading berarti urutan gaya yang berlaku. Style terakhir yang valid akan menimpa yang sebelumnya jika selector-nya sama.</p>
+      </article>
+
+      <article>
+        <h2>6. Mengatur Tata Letak</h2>
+        <p>Gunakan <code>display: flex;</code>, <code>grid</code>, atau <code>position</code> untuk mengatur tata letak elemen HTML.</p>
+      </article>
+
+      <article>
+        <h2>7. Desain Responsif</h2>
+        <p>Desain responsif menyesuaikan tampilan dengan berbagai ukuran layar (HP, tablet, PC), agar user experience tetap optimal.</p>
+      </article>
+
+      <article>
+        <h2>8. Gaya dengan ID dan Class</h2>
+        <p>Contoh ID: <code>#judul { color: red; }</code><br>Contoh Class: <code>.menu { font-weight: bold; }</code></p>
+      </article>
+
+      <article>
+        <h2>9. Pseudo-Class</h2>
+        <p>Pseudo-class digunakan untuk kondisi tertentu, contoh: <code>a:hover { color: green; }</code> saat link disentuh kursor.</p>
+      </article>
+
+      <article>
+        <h2>10. Evaluasi & Peningkatan CSS</h2>
+        <p>Lihat kecepatan loading, keterbacaan, dan kenyamanan. Memperbaiki dengan memperjelas struktur, warna, dan tata letak.</p>
+      </article>
+    </div>
+
+</body>
+</html>
